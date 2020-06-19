@@ -149,7 +149,7 @@ a {
     height: 105px;
     background-color: rgb(78, 198, 171);
     border-style: none;
-    cursor: default;
+    cursor: pointer;
 
 }
 
@@ -332,6 +332,7 @@ a {
     background-position: center;
     box-sizing: border-box;
     display: block;
+    cursor: pointer;
 }
 
 .overlay-list-item-button-like,

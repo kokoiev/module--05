@@ -29,6 +29,7 @@ a {
 .header {
     display: block;
     background-color: white;
+    padding-top: 20px;
 }
 
 .site-logo {
@@ -52,7 +53,6 @@ a {
 }
 
 .logo-navigation {
-    margin-top: 25px;
     padding-bottom: 10px;
 }
 

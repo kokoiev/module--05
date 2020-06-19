@@ -28,13 +28,12 @@ a {
 
 .header {
     display: block;
-    margin-top: 30px;
     background-color: white;
 }
 
 .site-logo {
-    display: inline-block;
     font-family: 'Roboto';
+    display: inline-block;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 30px;
@@ -42,7 +41,6 @@ a {
     vertical-align: middle;
     text-decoration: none;
     color: black;
-
 }
 
 .site-logo::first-letter {
@@ -50,6 +48,16 @@ a {
     font-weight: 900;
     color: #1abc9c;
 
+
+}
+
+.logo-navigation {
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.navigation {
+    vertical-align: middle;
 }
 
 .container {
@@ -66,12 +74,15 @@ a {
 
 .nav-item {
     display: inline-block;
+    padding-botton: 10px;
+    padding-top: 0px;
 }
 
 .nav-list-link {
     display: inline-block;
     height: 38px;
     vertical-align: middle;
+    float: right;
 }
 
 .nav-item a {
@@ -101,7 +112,6 @@ a {
 
 .slider {
     position: relative;
-
 }
 
 .slider-bg {
